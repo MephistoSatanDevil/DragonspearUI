@@ -210,6 +210,7 @@
 			--Color the text white when selected
 			text = string.gsub(text, "%^0xff212eff", "^0xFFFFFFFF")
 		end
+		text = string.gsub(text, " ", "\t")
 		return text
 	end
 
